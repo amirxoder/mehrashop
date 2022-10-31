@@ -1,0 +1,88 @@
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+}
+
+.logo img {
+  height: 60px;
+  width: 126px;
+}
+
+.search__box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-right: 4rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  /* padding: 18px 22px; */
+  padding-right: 18px;
+  font-size: 12px;
+}
+
+.drop__down {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 18px;
+}
+.drop__down p {
+  font-weight: bold;
+  margin-left: 0.4rem;
+}
+
+.search__input {
+  margin-right: 18px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search__input input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: IRANSans !important;
+}
+
+.search__icon {
+  font-size: 40px;
+  padding: 9px;
+  background-color: var(--primary-green);
+  color: #fff;
+}
+
+.user__shop {
+  display: flex;
+  justify-self: flex-end;
+  padding-right: 40rem;
+  font-size: 18px;
+}
+.user__shop div {
+  margin-right: 2rem;
+}
+
+.user__favorites,
+.user__basket {
+  position: relative;
+}
+.counter {
+  position: absolute;
+  top: -5px;
+  left: -4px;
+  font-size: 10px;
+  background-color: var(--primary-green);
+  color: #fff;
+  height: 14px;
+  width: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
