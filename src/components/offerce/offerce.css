@@ -1,0 +1,23 @@
+.offerce__wrapper {
+  padding: 100px 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.offerce {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.offerce__icon {
+  width: 105px;
+}
+
+.offerce__desc {
+  width: 237px;
+  color: #4f4f4f;
+  font-weight: normal;
+}
