@@ -13,7 +13,8 @@ body {
   font-family: IRANSans !important;
   direction: rtl;
 }
-::placeholder {
+::placeholder,
+button {
   font-family: IRANSans !important;
 }
 
@@ -24,6 +25,7 @@ li {
 
 :root {
   --primary-green: #86bc42;
+  --dark-green: #41544a;
 }
 
 @font-face {
